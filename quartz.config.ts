@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#F6F4F1",        // Very light pastel beige (background)
+          lightgray: "#E3D2B8",    // Warmer pastel beige (secondary)
+          gray: "#B0C4D6",         // Cooler pastel blue (tertiary)
+          darkgray: "#788798",     // Muted blue-gray (text and links)
+          dark: "#4F6367",         // Dark muted teal (text color)
+          secondary: "#567A68",    // Darker muted green (primary)
+          tertiary: "#ECC7A2",     // Soft pastel peach (highlight)
+          highlight: "#ECC7A2",    // Soft pastel peach (highlight)
+          textHighlight: "#88A089" // Softened pastel green (accent highlight)
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1E262B",        // Very dark muted teal (background)
+          lightgray: "#2B3A35",    // Dark forest green (secondary)
+          gray: "#B2CEB3",         // Light pastel green (primary)
+          darkgray: "#7B97AA",     // Muted steel blue (tertiary)
+          dark: "#D4D4D4",         // Light gray (text color)
+          secondary: "#84A59D",    // Soft pastel green-blue (links/interactive)
+          tertiary: "#B9CCD7",     // Cool pastel blue (secondary highlight)
+          highlight: "rgba(143, 159, 169, 0.15)", // Slightly translucent cool gray-blue (highlight)
+          textHighlight: "#D9CAB3" // Soft pastel peach (accent highlight)
         },
       },
     },
