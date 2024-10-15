@@ -1,5 +1,7 @@
 ---
 title: The start of my blog! 💻
+tags:
+- Blog
 ---
 # Hello! 👋 
 This is my [[Digital-Garden|Digital Garden]] for when I feel the need to  bore you with stuff I find cool.
