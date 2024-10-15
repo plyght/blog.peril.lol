@@ -43,7 +43,7 @@ const config: QuartzConfig = {
         light: "#0F1813",        // Very dark muted green (background)
                   lightgray: "#1B2823",    // Dark forest green (secondary background)
                   gray: "#2F4239",         // Dark muted green (tertiary elements)
-                  darkgray: "#466A5A",     // Muted green (for less important text like metadata)
+                  darkgray: "#ACCFC0",     // Muted green (for less important text like metadata)
                   dark: "#F0F0F0",         // Brighter white-gray for body text (higher contrast)
                   secondary: "#6A9481",    // Green-blue for links/interactive elements
                   tertiary: "#8DC7A7",     // Light pastel green (for highlights)
