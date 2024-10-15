@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#F6F4F1",        // Very light pastel beige (background)
-          lightgray: "#E3D2B8",    // Warmer pastel beige (secondary)
-          gray: "#B0C4D6",         // Cooler pastel blue (tertiary)
-          darkgray: "#788798",     // Muted blue-gray (text and links)
-          dark: "#4F6367",         // Dark muted teal (text color)
-          secondary: "#567A68",    // Darker muted green (primary)
-          tertiary: "#ECC7A2",     // Soft pastel peach (highlight)
-          highlight: "#ECC7A2",    // Soft pastel peach (highlight)
-          textHighlight: "#88A089" // Softened pastel green (accent highlight)
+        light: "#EEF1EC",        // Slightly darker pastel green (background)
+    lightgray: "#D2DCD7",    // Light gray-green (secondary background, more contrast)
+    gray: "#A6B6AF",         // Muted gray-green (tertiary, higher contrast)
+    darkgray: "#3F5B50",     // Muted dark green-gray (text and link colors, more contrast)
+    dark: "#2B463A",         // Darker muted green (primary text, much more contrast)
+    secondary: "#6A897A",    // Softer green-blue (links/interactive elements)
+    tertiary: "#82B894",     // Pastel green (for highlights, higher contrast)
+    highlight: "#B8CABF",    // Softer mint green for highlights (more defined contrast)
+    textHighlight: "#4B655A" // Muted dark green for accent text (stands out more)
         },
         darkMode: {
-          light: "#1E262B",        // Very dark muted teal (background)
-          lightgray: "#2B3A35",    // Dark forest green (secondary)
-          gray: "#B2CEB3",         // Light pastel green (primary)
-          darkgray: "#7B97AA",     // Muted steel blue (tertiary)
-          dark: "#D4D4D4",         // Light gray (text color)
-          secondary: "#84A59D",    // Soft pastel green-blue (links/interactive)
-          tertiary: "#B9CCD7",     // Cool pastel blue (secondary highlight)
-          highlight: "rgba(143, 159, 169, 0.15)", // Slightly translucent cool gray-blue (highlight)
-          textHighlight: "#D9CAB3" // Soft pastel peach (accent highlight)
+         light: "#0F1813",        // Even darker muted green (background for deeper contrast)
+                lightgray: "#1B2823",    // Darker forest green (secondary background)
+                gray: "#2F4239",         // Dark muted green (tertiary elements for clearer separation)
+                darkgray: "#466A5A",     // Muted green (lighter contrast for secondary text or details)
+                dark: "#E6E6E6",         // Brighter gray for primary text (better readability)
+                secondary: "#6A9481",    // Brighter green-blue for links/interactive elements
+                tertiary: "#8DC7A7",     // Lighter pastel green (higher contrast for highlights)
+                highlight: "rgba(180, 200, 189, 0.3)", // More opaque green-gray for stronger highlights
+                textHighlight: "#D9CAB3" // Light beige for accent text (clearer contrast with dark background)
         },
       },
     },
