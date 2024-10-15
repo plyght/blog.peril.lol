@@ -29,26 +29,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-        light: "#EEF1EC",        // Slightly darker pastel green (background)
-    lightgray: "#D2DCD7",    // Light gray-green (secondary background, more contrast)
-    gray: "#A6B6AF",         // Muted gray-green (tertiary, higher contrast)
-    darkgray: "#3F5B50",     // Muted dark green-gray (text and link colors, more contrast)
-    dark: "#2B463A",         // Darker muted green (primary text, much more contrast)
-    secondary: "#6A897A",    // Softer green-blue (links/interactive elements)
-    tertiary: "#82B894",     // Pastel green (for highlights, higher contrast)
-    highlight: "#B8CABF",    // Softer mint green for highlights (more defined contrast)
-    textHighlight: "#4B655A" // Muted dark green for accent text (stands out more)
+   light: "#EEF1EC",        // Slightly darker pastel green (background)
+        lightgray: "#D2DCD7",    // Light gray-green (secondary background)
+        gray: "#A6B6AF",         // Muted gray-green (tertiary)
+        darkgray: "#3F5B50",     // Dark muted green-gray for metadata (like dates)
+        dark: "#2B463A",         // Darker muted green for body text (more contrast)
+        secondary: "#6A897A",    // Softer green-blue for links/interactive elements
+        tertiary: "#82B894",     // Pastel green for highlights
+        highlight: "#B8CABF",    // Mint green for subtle highlights
+        textHighlight: "#4B655A" // Muted dark green (for emphasized text)
         },
         darkMode: {
-         light: "#0F1813",        // Even darker muted green (background for deeper contrast)
-                lightgray: "#1B2823",    // Darker forest green (secondary background)
-                gray: "#2F4239",         // Dark muted green (tertiary elements for clearer separation)
-                darkgray: "#466A5A",     // Muted green (lighter contrast for secondary text or details)
-                dark: "#E6E6E6",         // Brighter gray for primary text (better readability)
-                secondary: "#6A9481",    // Brighter green-blue for links/interactive elements
-                tertiary: "#8DC7A7",     // Lighter pastel green (higher contrast for highlights)
-                highlight: "rgba(180, 200, 189, 0.3)", // More opaque green-gray for stronger highlights
-                textHighlight: "#D9CAB3" // Light beige for accent text (clearer contrast with dark background)
+        light: "#0F1813",        // Very dark muted green (background)
+                  lightgray: "#1B2823",    // Dark forest green (secondary background)
+                  gray: "#2F4239",         // Dark muted green (tertiary elements)
+                  darkgray: "#466A5A",     // Muted green (for less important text like metadata)
+                  dark: "#F0F0F0",         // Brighter white-gray for body text (higher contrast)
+                  secondary: "#6A9481",    // Green-blue for links/interactive elements
+                  tertiary: "#8DC7A7",     // Light pastel green (for highlights)
+                  highlight: "rgba(180, 200, 189, 0.3)", // More opaque green-gray for stronger highlights
+                  textHighlight: "#D9CAB3" // Light beige for accent text (clearer contrast with dark background)
         },
       },
     },
