@@ -12,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       "Main Site": "https://peril.lol",
     },
   }),
+  
 }
 
 // components for pages that display a single page (e.g. a single note)
