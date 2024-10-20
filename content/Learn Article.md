@@ -12,6 +12,7 @@ We all have heard of a [computer](#Computer) before; It is a key part of our dai
 # Understanding Quantum Computing
 
 ## WTF Is Quantum Computing?
+Quantum computing is a subsection of computing that focuses on researching and developing 
 
 
 

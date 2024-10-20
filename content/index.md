@@ -8,4 +8,4 @@ This is my [[Digital-Garden|Digital Garden]] for when I feel the need to  bore y
 
 check out the graph view on the right to start exploring!
 
-As of Oct 5th, this blog is a [[note|WIP]]. Please have a look at my GitHub and my main site at the bottom ↓
+As of Oct 5th, this blog is a [[WIP|WIP]]. Please have a look at my GitHub and my main site at the bottom ↓
